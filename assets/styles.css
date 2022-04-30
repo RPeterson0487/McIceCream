@@ -1,0 +1,57 @@
+/* Recommended Font Sizes:  Headings: 35px, Subheadings: 30px, Body: 18/21 px */
+/* Official colors:  Yellow: #FFC72C, Red: #DA291C, Black: #27251F */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#comingSoon {
+    display: inline;
+    border-style: solid;
+}
+
+.appDescrip1 {
+    width: 50%;
+    border-style: solid;
+    display: inline-block;
+}
+
+.appDescripPic1 {
+    width: 33%;
+    float: left;
+}
+
+.appDescripText1 {
+    width: 50%;
+    text-align: left;
+    border-style: dashed;
+    float: right;
+}
+
+.appDescrip2 {
+    width: 50%;
+    border-style: solid;
+    display: inline-block;
+}
+
+.appDescripText2 {
+    width: 50%;
+    text-align: left;
+    border-style: dashed;
+    float: left;
+}
+
+.appDescripPic2 {
+    width: 33%;
+    float: right;
+}

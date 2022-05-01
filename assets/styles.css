@@ -20,38 +20,58 @@ h2 {
     border-style: solid;
 }
 
-.appDescrip1 {
-    width: 50%;
-    border-style: solid;
-    display: inline-block;
+.appSection {
+    display: flex;
+    justify-content: center;
 }
 
-.appDescripPic1 {
+.appDescripWrapper {
+    width: 50%;
+}
+
+#appDescripImg1Wrapper {
+    height: 100%;
     width: 33%;
     float: left;
 }
 
-.appDescripText1 {
-    width: 50%;
-    text-align: left;
-    border-style: dashed;
+.appDescripImg {
+    width: 100%;
+}
+
+#appDescripText1Wrapper {
+    height: 100%;
+    width: 65%;
     float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
 }
 
-.appDescrip2 {
-    width: 50%;
-    border-style: solid;
-    display: inline-block;
-}
-
-.appDescripText2 {
-    width: 50%;
+#appDescripText1 {
+    width: 90%;
+    float: right;
     text-align: left;
-    border-style: dashed;
-    float: left;
 }
 
-.appDescripPic2 {
+#appDescripText2Wrapper {
+    height: 100%;
+    width: 65%;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#appDescripText2 {
+    width: 90%;
+    float: left;
+    text-align: left;
+}
+
+#appDescripImg2Wrapper {
+    height: 100%;
     width: 33%;
     float: right;
 }
